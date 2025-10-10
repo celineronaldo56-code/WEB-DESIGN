@@ -1,0 +1,13 @@
+body { 
+
+    background-image: url(Image/My\ Love.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+p {color: white}
+ table, th, td {border:1px solid brown,}
+ { border-collapse : collapse}
+ th, td { background-color: blue; border-radius:10px}
+ 
+
