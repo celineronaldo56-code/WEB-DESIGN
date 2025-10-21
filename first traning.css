@@ -6,8 +6,22 @@ body {
     background-attachment: fixed;
 }
 p {color: white}
- table, th, td {border:1px solid brown,}
- { border-collapse : collapse}
- th, td { background-color: blue; border-radius:10px}
+ table , th , td { border:1px solid black ; color: white; border-collapse:collapse ;
+width:100%;}
+th , td { padding:10px; text-align:left; border-bottom:2px solid red}
+tr:hover{background-color: darkgreen;}
+tr:nth-child(odd); tr:nth-child(even) {background-color: lightgrey;}
  
+pre {
+    background-color: lightcoral;
+    width: 500px;
+    margin: auto;
+}
 
+.cr7{
+    background-color: greenyellow;
+    color: white;
+    padding: 20px;
+    text-align: center;
+
+}
