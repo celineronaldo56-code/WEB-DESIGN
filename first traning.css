@@ -25,3 +25,12 @@ pre {
     text-align: center;
 
 }
+h1{
+    background-color: linen;
+}
+div{
+    background-color: maroon;
+}
+p{
+    background-color: rgba(5, 9, 248, 0.062);
+}
