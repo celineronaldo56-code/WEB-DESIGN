@@ -27,10 +27,27 @@ pre {
 }
 h1{
     background-color: linen;
+    border-style: solid;
+    border-top-style: inset;
+    border-top-width: 7px;
 }
 div{
     background-color: maroon;
+    border-style: solid;
+    border-top-style: groove;
+    border-top-width: 7px;
 }
-p{
+h2{
     background-color: rgba(5, 9, 248, 0.062);
+    border-color: wheat;
+    border-style: solid;
+    border-top-style: inset;
+    border-top-width: 8px
+}
+p{ 
+  background-image: url(Image/Chinese\ Resturanr\ 1.299Z.png);
+  border-color: wheat;
+}
+p.mix{
+    border-style: mix;
 }
