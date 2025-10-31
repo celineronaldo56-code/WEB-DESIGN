@@ -6,10 +6,16 @@ body {
     background-attachment: fixed;
 }
 p {color: white}
- table , th , td { border:1px solid black ; color: white; border-collapse:collapse ;
-width:100%;}
-th , td { padding:10px; text-align:left; border-bottom:2px solid red}
-tr:hover{background-color: darkgreen;}
+ table , th , td {
+    border:2px solid black ;
+     color: white; 
+     border-collapse:collapse ;
+    width:100%;}
+th , td { 
+    padding:10px; text-align:left; 
+    border-bottom:2px solid red}
+tr:hover{
+    background-color: darkgreen;}
 tr:nth-child(odd); tr:nth-child(even) {background-color: lightgrey;}
  
 pre {
