@@ -21,10 +21,10 @@
 }
 .pix1{
     background-color: lightpink;
-    border: 7px solid deeppink;
+    border: 5px solid deeppink;
     margin: 20px;
-    outline: darkred;
-    outline-offset: 20px;
+    outline:5px solid darkred;
+    outline-offset: 15px;
     width: 150px;
     height: 60px;
     text-align: center;
