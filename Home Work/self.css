@@ -11,3 +11,11 @@
     height:100px;
     padding: 10px;
 }
+.out{
+    background-color:lightgreen;
+    border: 5px solid lightsalmon;
+    outline: 10px solid darkgreen;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
