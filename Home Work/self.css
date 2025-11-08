@@ -19,3 +19,18 @@
     padding: 20px;
     text-align: center;
 }
+.pix1{
+    background-color: lightpink;
+    border: 7px solid deeppink;
+    margin: 20px;
+    outline: darkred;
+    outline-offset: 20px;
+}
+.pix2{
+    background-color: lightcyan;
+    border: 5px solid violet;
+    margin: 10px;
+    outline: 5px dashed blueviolet;
+    outline-offset: 10px;
+}
+
