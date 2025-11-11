@@ -1,0 +1,16 @@
+.tablecontainer{
+            overflow-x: auto;
+       }
+
+      table {
+          border-collapse: collapse;
+          width: 100%;
+        
+        }
+
+      table, th, td {
+           border: 1px solid lightseagreen;
+           padding: 8px;
+           text-align: left;
+          
+        }
