@@ -1,6 +1,7 @@
 body{
     background-color: lightseagreen;
-    color: black
+    color: black;
+    font-family: 'Sofia', sans-serif;
 }
 .box{
     background-color: lightgray;
@@ -14,8 +15,8 @@ body{
     background-color: lightblue;
     border: 10px solid navy;
     width: 350px;
-    height:100px;
-    padding: 10px;
+    height:150px;
+    padding: 20px;
 }
 .out{
     background-color:lightgreen;
@@ -32,9 +33,9 @@ body{
     outline:5px solid darkred;
     outline-offset: 15px;
     width: 150px;
-    height: 60px;
+    height: 100px;
     text-align: center;
-    padding: 50px;
+    padding: 30px;
 }
 .pix2{
     background-color: lightcyan;
