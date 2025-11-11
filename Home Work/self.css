@@ -48,5 +48,23 @@ body{
     text-align: center;
     padding: 20px;
 }
-
+.list1 ol{
+    background-color: salmon;
+    padding: 20px;
+}
+.list1 ol li{
+    background-color: mistyrose;
+    color: darkred;
+    padding: 10px;
+    margin-left: 20px;
+}
+.list2 ul{
+    background-color: powderblue;
+    padding: 20px;
+}
+.list2 ul li{
+    background-color: mistyrose;
+    color: darkblue;
+    margin: 5px;
+}
 
