@@ -2,15 +2,24 @@
             overflow-x: auto;
        }
 
-      table {
+     .tablecontainer table {
           border-collapse: collapse;
           width: 100%;
         
         }
 
-      table, th, td {
+     .tablecontainer table, th, td{
            border: 1px solid lightseagreen;
            padding: 8px;
            text-align: left;
           
         }
+        .tablecontainer th{
+          background-color: #8a2be2;
+        }
+        .tablecontainer td{
+          background-color: lightblue;
+        }
+
+        
+        
