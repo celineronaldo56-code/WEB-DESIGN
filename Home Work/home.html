@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: lightsalmon;">
+     <h2> let me see what javascript can do with this.</h2>
+
+    <button
+    onclick="document.getElementById('bulb').src='https://cdn.pixabay.com/photo/2018/11/20/16/04/light-bulb-3827665_1280.jpg'"> Turn on the light </button>
+
+    <img id="bulb" src="https://cdn.pixabay.com/photo/2018/11/20/16/04/light-bulb-3827665_1280.jpg" alt="bulb image" width="150" height="150">
+
+   <button
+    onclick="document.getElementById('bulb').src='https://cdn.pixabay.com/photo/2018/11/20/16/04/light-bulb-3827665_1280.jpg'"> Turn off the light </button>
+    <br>
+    <h2 id="pet" style="color:blue;"> let me work with javascript on HTML element by using the button to do work.</h2>
+    <button type="button"
+    onclick="document.getElementById('pet').style.fontSize='25px'"> Click me!</button>
+    <br>
+    <h2 id="car" style="background-color: lightseagreen;"> Working with javascript on HTML element to display none by hiding </h2>
+    <button type="button"
+    onclick="document.getElementById('car').style.display='none'"> Click me to hide! </button>
+    <br>
+    <h2> Working with javascript to display my welcome .</h2>
+    <p id="bike" style="background-color: lightcoral;display:none">  WELCOME TO SAHRON WORLD.</p>
+    <button type="button"
+    onclick="document.getElementById('bike').style.display='block'"> Click me to appear! </button>
+    <br>
+    <h2> Working with document.write part on javascript.</h2>
+    <button type="button"
+    onclick="document.write(7+7)"> Try it </button>
+    <br>
+     <h2> Working with window.print part on javascript.</h2>
+    <button type="button"
+    onclik="window.print()"> Click to print this page </button>
+    <br>
+    <h2> Working with window.alert part on javascript.</h2>
+    <script>window.alert(7+23);</script>
+    <br>
+    <h2> Working with console.log part on javascript.</h2>
+    <script> console.log(23+77);</script>
+    <script src="home.js"></script>
+
+</body>
+</html>
